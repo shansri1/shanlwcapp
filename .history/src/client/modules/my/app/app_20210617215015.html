@@ -9,9 +9,6 @@
             </my-session-list>
           </template>
           
-          <template if:true={isStateDetails}>
-            <my-session-details  onnavigate={handleNavigate} session-id={sessionId}>
-            </my-session-details>
-          </template>
+        <my-session-details session-id={sessionId}></my-session-details>
     </main>
   </template>
